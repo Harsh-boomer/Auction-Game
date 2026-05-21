@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Test Cricket Auction Game - Play Cricket Auctions with Friends Online</title>
+    <!-- Tailwind CSS V3 CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #ffffff; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #121212; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 10px; }
+        .gradient-text { background: linear-gradient(90deg, #f97316 0%, #ef4444 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stadium-bg {
+            background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.4), rgba(10, 10, 10, 0.95)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuC4j_8_bWrOcYbcGRCviqRvESXrMlxsMOJZPkdbbiROLP7NylO3HS0Ubb4xHel0bcrRfDJXopdYIDYxzt9hXTlu8pXRajX2nGiCDa2tUyZFvwRpTxO9iFnUQRmdMWtc9S2mIyi5gw5jlljD7KtxI847vI7tufX5RIHS3wwBniIyTjEi4yEpcYFJS0uVbf7j4HU3bV2wkl9zKTdgathnVUEna7gsx_EE1VJnSW8TT5fRRp5LCgdNSy8UWa3f0Ne7iGqWzrunJ_WD7Fjg');
+            background-size: cover; background-position: center;
+        }
+        .glass-panel { background: rgba(18, 18, 18, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .glow-orange { box-shadow: 0 0 30px rgba(249, 115, 22, 0.2); }
+        .team-ind { background-color: #132257; }
+        .team-aus { background-color: #ffcd00; color: #000; }
+        .team-eng { background-color: #00247d; }
+        .team-nz { background-color: #000000; }
+        .team-sa { background-color: #007749; }
+        .team-pak { background-color: #01411c; }
+        .team-sl { background-color: #0c2340; }
+        .team-wi { background-color: #7b0041; }
+        .team-ban { background-color: #006a4e; }
+        .team-afg { background-color: #0000ff; }
+        .team-card-active { border: 1px solid #fbbf24; background-color: rgba(251, 191, 36, 0.05); }
+        .text-accent-orange { color: #f97316; }
+        .bg-accent-orange { background-color: #f97316; }
+        .text-accent-green { color: #22c55e; }
+        .bg-accent-green { background-color: #22c55e; }
+        .bg-card-dark { background-color: #161616; }
+        .border-card-dark { border-color: #262626; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-white min-h-screen selection:bg-orange-500/30">
+
+    <!-- MAIN VIEW / LANDING (id: main-view) -->
+    <div id="main-view" class="min-h-screen flex flex-col lg:flex-row stadium-bg">
+        <!-- Hero Section -->
+        <section class="flex-1 flex flex-col justify-center px-8 py-16 lg:px-20 lg:py-0 relative z-10">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-yellow-500/30 bg-yellow-950/20 text-yellow-500 text-sm font-semibold mb-8">
+                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    Test Cricket Auction Ready
+                </div>
+                <h1 class="text-6xl md:text-8xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+                    The Ultimate <br/><span class="gradient-text">Auction Arena</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-12 max-w-lg leading-relaxed">
+                    Step into the shoes of a franchise owner. Bid, strategize, and outplay your friends in the most realistic Test Cricket auction simulation.
+                </p>
+            </div>
+        </section>
+
+        <!-- Room Creation/Join Sidebar -->
+        <aside class="w-full lg:w-[480px] lg:h-screen lg:overflow-y-auto flex items-center justify-center p-4 lg:p-8 relative z-20">
+            <div class="glass-panel w-full max-w-md rounded-3xl p-8 glow-orange">
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold mb-2">Game Room</h2>
+                    <p class="text-gray-400 text-sm">Create a lobby or join your friends</p>
+                </div>
+                
+                <!-- Tabs -->
+                <div class="bg-white/5 p-1 rounded-xl flex mb-8">
+                    <button class="tab-btn active flex-1 items-center justify-center gap-2 py-2.5 bg-white text-black rounded-lg text-sm font-bold transition-all" data-tab="new-game">New Game</button>
+                    <button class="tab-btn flex-1 items-center justify-center gap-2 py-2.5 text-white hover:bg-white/10 rounded-lg text-sm font-bold transition-all" data-tab="join-game">Join Game</button>
+                </div>
+
+                <!-- Create Room Content -->
+                <form id="new-game-content" class="tab-content active space-y-6" onsubmit="return false;">
+                    <div style="display: none;" class="sport-btn active" data-sport="cricket">Cricket</div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Your Name</label>
+                        <input type="text" id="host-name" class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 outline-none transition-all text-white" placeholder="Enter your player name">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-4">Choose Your Franchise</label>
+                        <div class="grid grid-cols-5 gap-3" id="host-team-grid">
+                            <button class="team-option active team-ind aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="IND">IND</button>
+                            <button class="team-option team-aus aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-black" data-team="AUS">AUS</button>
+                            <button class="team-option team-eng aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="ENG">ENG</button>
+                            <button class="team-option team-nz aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="NZ">NZ</button>
+                            <button class="team-option team-sa aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="SA">SA</button>
+                            <button class="team-option team-pak aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="PAK">PAK</button>
+                            <button class="team-option team-sl aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="SL">SL</button>
+                            <button class="team-option team-wi aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="WI">WI</button>
+                            <button class="team-option team-ban aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="BAN">BAN</button>
+                            <button class="team-option team-afg aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="AFG">AFG</button>
+                        </div>
+                    </div>
+                    <div class="pt-4">
+                        <button id="create-room-btn" class="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-400 hover:to-red-500 py-4 rounded-xl font-extrabold text-lg flex items-center justify-center gap-2 transition-all shadow-xl shadow-orange-900/40 text-white">CREATE ROOM</button>
+                    </div>
+                </form>
+
+                <!-- Join Room Content -->
+                <form id="join-game-content" class="tab-content hidden space-y-6" onsubmit="return false;">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Room Code</label>
+                        <input type="text" id="room-code" class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 outline-none transition-all uppercase text-white" placeholder="Enter 6-digit code">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Your Name</label>
+                        <input type="text" id="join-name" class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 outline-none transition-all text-white" placeholder="Enter your player name">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-4">Choose Your Franchise</label>
+                        <div class="grid grid-cols-5 gap-3" id="join-team-grid">
+                            <!-- Similar team options as above -->
+                            <button class="team-option active team-ind aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="IND">IND</button>
+                            <button class="team-option team-aus aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-black" data-team="AUS">AUS</button>
+                            <button class="team-option team-eng aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="ENG">ENG</button>
+                            <button class="team-option team-nz aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="NZ">NZ</button>
+                            <button class="team-option team-sa aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="SA">SA</button>
+                            <button class="team-option team-pak aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="PAK">PAK</button>
+                            <button class="team-option team-sl aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="SL">SL</button>
+                            <button class="team-option team-wi aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="WI">WI</button>
+                            <button class="team-option team-ban aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="BAN">BAN</button>
+                            <button class="team-option team-afg aspect-square rounded-full flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 shadow-lg text-white" data-team="AFG">AFG</button>
+                        </div>
+                    </div>
+                    <div class="pt-4">
+                        <button id="join-room-btn" class="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-400 hover:to-red-500 py-4 rounded-xl font-extrabold text-lg flex items-center justify-center gap-2 transition-all shadow-xl shadow-orange-900/40 text-white">JOIN ROOM</button>
+                    </div>
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <!-- AUCTION VIEW (id: auction-view) -->
+    <div id="auction-view" class="hidden min-h-screen flex flex-col bg-[#0d0d0d]">
+        <!-- Global Navigation -->
+        <nav class="flex items-center justify-between px-4 py-2 bg-[#121212] border-b border-white/5 text-xs text-gray-400">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center">
+                    <span class="font-bold">Room:</span>
+                    <span class="ml-1 text-yellow-400 font-bold tracking-wider" id="display-room-code">XXXXXX</span>
+                </div>
+                <div class="flex items-center">
+                    <span class="w-2 h-2 rounded-full bg-green-500 mr-2" id="room-status-dot"></span>
+                    <span id="room-status-badge" class="font-bold">● Live</span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-2">
+                <button id="start-auction-btn" class="hidden bg-[#f29100] text-black font-bold px-4 py-1.5 rounded flex items-center gap-2 hover:bg-yellow-500 transition-colors">Start</button>
+                <button id="pause-auction-btn" class="hidden flex items-center bg-yellow-900/40 text-yellow-400 border border-yellow-700/50 px-3 py-1.5 rounded-md font-bold hover:bg-yellow-900/60 transition">⏸ Pause</button>
+                <button id="end-auction-btn" class="flex items-center bg-red-900/40 text-red-400 border border-red-700/50 px-3 py-1.5 rounded-md font-bold hover:bg-red-900/60 transition">⏹ End</button>
+            </div>
+        </nav>
+
+        <main class="max-w-4xl mx-auto px-4 mt-6 w-full space-y-6">
+            <!-- Lobby Content -->
+            <div id="lobby-content" class="bg-[#121212] border border-white/10 rounded-xl overflow-hidden shadow-2xl p-8 text-center space-y-6">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-yellow-500/10 mb-2">
+                    <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h2 class="text-2xl font-black text-white">Waiting for Host</h2>
+                <p class="text-gray-400 max-w-md mx-auto text-sm">The auction will begin once the host starts the game. Invite your friends to join using the room code below!</p>
+                
+                <div class="bg-black/50 border border-white/10 rounded-lg p-4 flex items-center justify-between max-w-sm mx-auto">
+                    <div class="text-left">
+                        <p class="text-[10px] text-gray-500 font-bold uppercase mb-1">Room Code</p>
+                        <p class="text-2xl font-black tracking-widest text-accent-green" id="lobby-room-code">XXXXXX</p>
+                    </div>
+                    <button onclick="navigator.clipboard.writeText(document.getElementById('lobby-room-code').innerText); alert('Copied!')" class="bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg text-sm font-bold transition-colors">
+                        Copy
+                    </button>
+                </div>
+            </div>
+
+            <!-- Player Auction Card -->
+            <div id="auction-content" class="hidden">
+            <section class="bg-[#121212] border border-white/10 rounded-xl overflow-hidden shadow-2xl relative">
+                <!-- Status Progress Bar -->
+                <div class="h-1.5 w-full bg-gray-800" id="auction-timer-box">
+                    <div class="h-full bg-accent-orange w-full transition-all duration-100 ease-linear" id="timer-progress"></div>
+                </div>
+                <div class="p-4 sm:p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div class="space-y-1">
+                        <!-- Player Labels -->
+                        <div class="flex items-center space-x-2 text-[10px] font-bold">
+                            <span class="bg-red-800 text-red-200 px-2 py-0.5 rounded uppercase" id="current-player-role">Role</span>
+                            <span class="text-gray-400 uppercase font-semibold" id="current-player-country">Country</span>
+                        </div>
+                        <!-- Player Name -->
+                        <div class="flex items-center gap-4">
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-black uppercase tracking-tight" id="current-player-name">Waiting...</h1>
+                            <div class="bg-black/50 border border-white/10 rounded-lg px-3 py-1 flex flex-col items-center justify-center">
+                                <span id="auction-timer" class="text-2xl font-black text-accent-orange leading-none">10</span>
+                                <span class="text-[8px] text-gray-500 uppercase font-bold tracking-widest">SEC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-left sm:text-right w-full sm:w-auto border-t border-white/10 sm:border-0 pt-4 sm:pt-0">
+                        <p class="text-[10px] text-gray-400 font-bold uppercase">Current Bid</p>
+                        <div class="text-3xl sm:text-4xl font-black flex items-baseline justify-end text-accent-green drop-shadow-md truncate">
+                            <span id="current-bid-display-top">₹0</span>
+                        </div>
+                        <p class="text-[10px] text-gray-500 font-bold uppercase mt-1">Base: ₹<span id="current-player-base">0</span> L</p>
+                    </div>
+                </div>
+                
+                <!-- Bid Footer Bar -->
+                <div class="bg-white/5 border-t border-white/5 p-4 flex items-center justify-between">
+                    <div class="flex flex-col">
+                        <span class="text-[9px] text-gray-500 font-bold uppercase leading-none mb-1">My Purse:</span>
+                        <span class="text-sm md:text-base text-accent-green font-bold" id="my-purse">₹12000L</span>
+                    </div>
+                    
+                    <div class="flex-grow flex flex-col items-center justify-center px-4 space-y-2">
+                        <p id="highest-bidder-name" class="text-xs text-yellow-500 font-bold tracking-wide uppercase">No bids yet</p>
+                        <button id="main-bid-btn" onclick="placeNextBid(event)" ontouchstart="placeNextBid(event)" class="w-full max-w-[280px] text-white font-black py-3 px-6 rounded-lg shadow-lg uppercase tracking-wider text-sm transition-all transform active:scale-95 flex items-center justify-center space-x-2 bg-accent-green hover:bg-green-600 shadow-green-500/20">
+                            <span>BID</span>
+                            <span class="text-white/90 font-bold" id="bid-amount-display">0 L</span>
+                        </button>
+                    </div>
+
+                    <div class="flex flex-col items-end">
+                         <span class="text-[9px] text-gray-500 font-bold uppercase leading-none mb-1">Squad</span>
+                         <span class="text-sm font-bold text-white"><span id="total-squad-count">0</span></span>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <!-- Tabbed Content Section (Squad / Players) -->
+            <section class="border border-white/10 rounded-xl bg-[#121212] overflow-hidden">
+                <div class="flex border-b border-white/10 p-1">
+                    <button class="room-tab active flex-1 py-3 text-[11px] font-bold text-accent-green bg-accent-green/5 border-b-2 border-accent-green flex items-center justify-center space-x-2" data-target="squad">
+                        Squads
+                    </button>
+                    <button class="room-tab flex-1 py-3 text-[11px] font-bold text-gray-500 hover:text-white flex items-center justify-center space-x-2" data-target="upcoming" id="view-upcoming-btn">
+                        Upcoming
+                    </button>
+                </div>
+                
+                <!-- Squad Content -->
+                <div class="p-4 tab-content-area active" id="squad-tab-content">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="users-list">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modals (Squad Detail Modal) -->
+    <div id="squad-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-[#121212] border border-white/10 rounded-2xl w-full max-w-lg overflow-hidden shadow-2xl transform transition-all">
+            <div class="flex justify-between items-center p-4 border-b border-white/10 bg-white/5">
+                <h3 class="text-lg font-bold text-white" id="squad-modal-title">Team Squad</h3>
+                <button id="close-squad-modal" class="text-gray-400 hover:text-white transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-6 bg-black/40 p-4 rounded-xl border border-white/5">
+                    <div class="text-center">
+                        <p class="text-[10px] text-gray-500 font-bold uppercase mb-1">Players</p>
+                        <p class="text-xl font-black text-accent-orange" id="squad-players-count">0</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-[10px] text-gray-500 font-bold uppercase mb-1">Purse Remaining</p>
+                        <p class="text-xl font-black text-accent-green" id="squad-remaining-purse">₹12000L</p>
+                    </div>
+                </div>
+                <div class="max-h-64 overflow-y-auto pr-2">
+                    <table class="w-full text-xs sm:text-sm text-left table-fixed">
+                        <thead class="text-[10px] sm:text-xs text-gray-500 uppercase bg-black/20">
+                            <tr>
+                                <th class="px-2 sm:px-4 py-2 rounded-l-lg w-[50%]">Player</th>
+                                <th class="px-2 sm:px-4 py-2 w-[25%]">Role</th>
+                                <th class="px-2 sm:px-4 py-2 rounded-r-lg text-right w-[25%]">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="squad-players-list" class="divide-y divide-white/5">
+                            <!-- Players populated here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals (Players List Modal) -->
+    <div id="players-list-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-[#121212] border border-white/10 rounded-2xl w-full max-w-lg overflow-hidden shadow-2xl transform transition-all">
+            <div class="flex justify-between items-center p-4 border-b border-white/10 bg-white/5">
+                <h3 class="text-lg font-bold text-white" id="players-list-title">Players</h3>
+                <button id="close-players-list-modal" class="text-gray-400 hover:text-white transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="max-h-80 overflow-y-auto pr-2">
+                    <table class="w-full text-xs sm:text-sm text-left table-fixed">
+                        <thead class="text-[10px] sm:text-xs text-gray-500 uppercase bg-black/20">
+                            <tr>
+                                <th class="px-2 sm:px-4 py-2 rounded-l-lg w-[50%]">Player</th>
+                                <th class="px-2 sm:px-4 py-2 w-[25%]">Role</th>
+                                <th class="px-2 sm:px-4 py-2 rounded-r-lg text-right w-[25%]">Base</th>
+                            </tr>
+                        </thead>
+                        <tbody id="players-list-tbody" class="divide-y divide-white/5">
+                            <!-- Players populated here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

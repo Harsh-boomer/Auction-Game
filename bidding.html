@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Auction Dashboard - SL Malinga</title>
+<!-- Tailwind CSS V3 CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style data-purpose="typography">
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+  </style>
+<style data-purpose="custom-layout">
+    /* Custom scrollbar for a cleaner dark UI look */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1a1a1a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 10px;
+    }
+    .main-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    /* Specific accent colors from image */
+    .text-accent-orange { color: #f97316; }
+    .bg-accent-orange { background-color: #f97316; }
+    .text-accent-green { color: #22c55e; }
+    .bg-accent-green { background-color: #22c55e; }
+    .bg-card-dark { background-color: #161616; }
+    .border-card-dark { border-color: #262626; }
+  </style>
+</head>
+<body class="min-h-screen">
+<!-- BEGIN: Global Navigation -->
+<nav class="flex items-center justify-between px-4 py-2 bg-[#121212] border-b border-white/5 text-xs text-gray-400" data-purpose="top-navigation">
+<div class="flex items-center space-x-4">
+<div class="flex items-center">
+<span class="">Room:</span>
+<span class="ml-1 text-yellow-400 font-bold">W6XZ9Q</span>
+</div>
+<div class="flex items-center">
+<span class="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
+<span class="">1/1</span>
+</div>
+<button class="p-1 hover:bg-white/10 rounded"><svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.767 5.768 0 3.18 2.586 5.766 5.767 5.766 3.18 0 5.766-2.586 5.766-5.766 0-3.182-2.586-5.768-5.766-5.768zm0 10.375c-2.54 0-4.606-2.065-4.606-4.607 0-2.54 2.066-4.607 4.606-4.607 2.541 0 4.608 2.067 4.608 4.607 0 2.542-2.067 4.607-4.608 4.607zm11.474-3.908v-1.214l-2.532-.426c-.198-.679-.481-1.312-.832-1.895l1.533-2.046-.858-.858-2.046 1.533c-.583-.351-1.216-.634-1.895-.832l-.426-2.532h-1.214l-.426 2.532c-.679.198-1.312.481-1.895.832l-2.047-1.533-.858.858 1.533 2.046c-.351.583-.634 1.216-.832 1.895l-2.532.426v1.214l2.532.426c.198.679.481 1.312.832 1.895l-1.533 2.046.858.858 2.046-1.533c.583.351 1.216.634 1.895.832l.426 2.532h1.214l.426-2.532c.679-.198 1.312-.481 1.895-.832l2.046 1.533.858-.858-1.533-2.046c.351-.583.634-1.216.832-1.895l2.532-.426z"></path></svg></button>
+<button class="p-1 hover:bg-white/10 rounded"><svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V7h2v5z"></path></svg></button>
+</div>
+<div class="flex items-center space-x-2">
+<button class="flex items-center bg-green-900/40 text-green-400 border border-green-700/50 px-3 py-1 rounded-md text-[10px] font-bold">
+<svg class="w-3 h-3 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg> Resume
+      </button>
+<button class="flex items-center bg-red-900/40 text-red-400 border border-red-700/50 px-3 py-1 rounded-md text-[10px] font-bold">
+<svg class="w-3 h-3 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V7h2v5z"></path></svg> End
+      </button>
+<div class="flex space-x-1 ml-2">
+<button class="p-1 hover:text-white"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></button>
+<button class="flex items-center bg-purple-900/40 text-purple-400 border border-purple-700/50 px-3 py-1 rounded-md text-[10px] font-bold">
+<svg class="w-3 h-3 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"></path></svg> Play Sim
+        </button>
+<button class="flex items-center bg-pink-900/40 text-pink-400 border border-pink-700/50 px-3 py-1 rounded-md text-[10px] font-bold">
+<svg class="w-3 h-3 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg> Support
+        </button>
+<button class="p-1 hover:text-white"><svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M11 18v-5h2v5h-2zm0-7V6h2v5h-2zm-9 9l.29.29L12 21l9.71-.71.29-.29V10L12 3 2 10v10z"></path></svg></button>
+</div>
+</div>
+</nav>
+<!-- END: Global Navigation -->
+<main class="main-container px-4 mt-6">
+<!-- BEGIN: Player Auction Card -->
+<section class="bg-[#121212] border border-white/10 rounded-xl overflow-hidden shadow-2xl relative" data-purpose="player-card">
+<!-- Status Progress Bar -->
+<div class="h-1.5 w-full bg-gray-800">
+<div class="h-full bg-accent-orange w-1/2"></div>
+</div>
+<div class="p-6 flex justify-between items-start">
+<div class="space-y-1">
+<!-- Player Labels -->
+<div class="flex items-center space-x-2 text-[10px] font-bold">
+<span class="bg-red-800 text-red-200 px-2 py-0.5 rounded">Bowler</span>
+<span class="bg-purple-800 text-purple-200 px-2 py-0.5 rounded">OS</span>
+<span class="text-gray-400">LK Sri Lanka</span>
+</div>
+<!-- Player Name -->
+<h1 class="text-3xl font-black uppercase tracking-tight">SL Malinga</h1>
+<!-- Stats Row -->
+<div class="flex items-center space-x-4 text-[10px] text-gray-500 font-medium">
+<span class="">M: <span class="text-white">122</span></span>
+<span class="text-white">•</span>
+<span class="">W: <span class="text-white">170</span></span>
+<span class="text-white">•</span>
+<span class="">Econ: <span class="text-white">7.14</span></span>
+<span class="text-white">•</span>
+<span class="">Avg: <span class="text-white">19.8</span></span>
+</div>
+</div>
+<div class="text-right">
+<p class="text-[10px] text-gray-400 font-bold uppercase">Base</p>
+<div class="text-3xl font-black flex items-baseline justify-end">
+            2.50 <span class="ml-1 text-sm text-gray-400">Cr</span>
+</div>
+<div class="mt-2">
+<span class="bg-yellow-500/10 text-yellow-500 border border-yellow-500/30 px-2 py-1 rounded text-[10px] font-bold">PAUSED</span>
+</div>
+</div>
+</div>
+<!-- Bid Footer Bar -->
+<div class="bg-white/5 border-t border-white/5 p-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="text-[9px] text-gray-500 font-bold uppercase leading-none">Purse:</span>
+<span class="text-xs text-accent-green font-bold">120.00 Cr</span>
+</div>
+<div class="flex-grow flex justify-center"><div class="flex items-center space-x-4 w-full justify-center px-4">
+<div class="flex items-baseline">
+<span class="text-[10px] text-gray-400 font-bold mr-2 uppercase"><br/></span>
+<span class="text-xl font-bold"><br/></span>
+</div>
+<button class="flex-1 max-w-[200px] text-white font-black py-2.5 px-6 rounded-lg shadow-lg uppercase tracking-wider text-sm transition-all transform active:scale-95 flex items-center justify-center space-x-2 bg-accent-green hover:bg-green-600 shadow-green-500/20">
+<span class="">BID</span>
+<span class="text-white/70 font-bold">2.60 Cr</span>
+</button>
+</div></div>
+<div>
+<button class="bg-white/10 hover:bg-white/20 p-2 rounded">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</section>
+<!-- END: Player Auction Card -->
+<!-- BEGIN: Simulation Game Promo -->
+<!-- END: Simulation Game Promo -->
+<!-- BEGIN: Tabbed Content Section -->
+<section class="mt-6 border border-white/10 rounded-xl bg-[#121212] overflow-hidden" data-purpose="bottom-tabs">
+<!-- Tabs Header -->
+<div class="flex border-b border-white/10 p-1">
+<button class="flex-1 py-2 text-[11px] font-bold text-gray-500 hover:text-white flex items-center justify-center space-x-2">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="">Activity <span class="bg-gray-800 px-1.5 py-0.5 rounded ml-1">4</span></span>
+</button>
+<button class="flex-1 py-2 text-[11px] font-bold text-accent-green bg-accent-green/5 border-b-2 border-accent-green flex items-center justify-center space-x-2">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="">Squad <span class="bg-accent-green/20 px-1.5 py-0.5 rounded ml-1">0</span></span>
+</button>
+<button class="flex-1 py-2 text-[11px] font-bold text-gray-500 hover:text-white flex items-center justify-center space-x-2">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="">Community</span>
+</button>
+<button class="flex-1 py-2 text-[11px] font-bold text-gray-500 hover:text-white flex items-center justify-center space-x-2">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="">Settings</span>
+</button>
+</div>
+<!-- Tab Content: Squad -->
+<div class="p-4" data-purpose="squad-content">
+<!-- Team Header -->
+<div class="bg-gray-800/30 border border-white/5 rounded-lg overflow-hidden">
+<div class="flex items-center justify-between p-3 border-b border-white/5">
+<div class="flex items-center space-x-3">
+<div class="w-3 h-3 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)]"></div>
+<div class="flex items-center space-x-2">
+<span class="text-[10px] font-bold text-white bg-black/40 px-1.5 rounded uppercase">H</span>
+<span class="text-[10px] font-bold text-yellow-500 bg-yellow-500/10 px-1.5 rounded uppercase">You</span>
+<span class="text-[10px] font-bold text-purple-400 bg-purple-500/10 px-1.5 rounded uppercase">Host</span>
+</div>
+<span class="text-sm font-bold flex items-center">
+<span class="w-4 h-4 mr-2 bg-blue-600 inline-block rounded-sm"></span>
+                Mumbai
+              </span>
+</div>
+<button class="text-gray-500">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+<!-- Team Stats Row -->
+<div class="grid grid-cols-3 p-3 text-[10px] bg-black/10">
+<div><span class="text-gray-500 font-bold uppercase">OS:</span> <span class="text-purple-400 font-bold">0</span></div>
+<div class="text-center"><span class="text-gray-500 font-bold uppercase">Purse:</span> <span class="text-accent-green font-bold">120.0 Cr</span></div>
+<div class="text-right"><span class="text-gray-500 font-bold uppercase">Spent:</span> <span class="text-yellow-500 font-bold">0 L</span></div>
+</div>
+<!-- Team Players Empty State -->
+<div class="p-10 text-center">
+<p class="text-gray-600 text-xs font-medium">No players in squad yet</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Tabbed Content Section -->
+</main>
+<!-- BEGIN: Canvas Script (If needed for dynamic UI effects later) -->
+<script data-purpose="canvas-setup">
+    // Placeholder for any background animation logic
+    // Usually used for the ambient glowing effects behind the player name
+  </script>
+<!-- END: Canvas Script -->
+</body></html>

@@ -1,0 +1,1950 @@
+{
+  "meta": {
+    "title": "Men's Test Cricket Players (2014–2026)",
+    "criteria": "Players who appeared in 10+ Test matches between January 2014 and May 2026",
+    "total_countries": 12,
+    "format": "International Test Cricket – Men"
+  },
+  "players": [
+    {
+      "name": "Virat Kohli",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Rohit Sharma",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Shubman Gill",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "KL Rahul",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Cheteshwar Pujara",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Murali Vijay",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Shikhar Dhawan",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    
+    {
+      "name": "Yashasvi Jaiswal",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Sarfaraz Khan",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Karun Nair",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "MS Dhoni",
+      "country": "India",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Rishabh Pant",
+      "country": "India",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Wriddhiman Saha",
+      "country": "India",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Dinesh Karthik",
+      "country": "India",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Mohammed Shami",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Ishant Sharma",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Umesh Yadav",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Mohammed Siraj",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Prasidh Krishna",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Shardul Thakur",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Axar Patel",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Hardik Pandya",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Washington Sundar",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "country": "India",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "country": "India",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dhruv Jurel",
+      "country": "India",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Devdutt Padikkal",
+      "country": "India",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Steve Smith",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "David Warner",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Marnus Labuschagne",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Usman Khawaja",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Travis Head",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Cameron Bancroft",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Matthew Renshaw",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Shaun Marsh",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Peter Handscomb",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Chris Rogers",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Ed Cowan",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Alex Carey",
+      "country": "Australia",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Tim Paine",
+      "country": "Australia",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Brad Haddin",
+      "country": "Australia",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Matthew Wade",
+      "country": "Australia",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Mitchell Starc",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Nathan Lyon",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Peter Siddle",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Ryan Harris",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Mitchell Johnson",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Scott Boland",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Jackson Bird",
+      "country": "Australia",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Cameron Green",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Glenn Maxwell",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Mitchell Marsh",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Beau Webster",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Josh Inglis",
+      "country": "Australia",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Joe Root",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Ben Stokes",
+      "country": "England",
+      "role": "All-Rounder",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Zak Crawley",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Ben Duckett",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Ollie Pope",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Harry Brook",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Jonny Bairstow",
+      "country": "England",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Jos Buttler",
+      "country": "England",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Alastair Cook",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Nick Compton",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Ian Bell",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Gary Ballance",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Adam Lyth",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Alex Hales",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Keaton Jennings",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dawid Malan",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Rory Burns",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dom Sibley",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Haseeb Hameed",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dan Lawrence",
+      "country": "England",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ollie Robinson",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Stuart Broad",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "James Anderson",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Mark Wood",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Jofra Archer",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Chris Woakes",
+      "country": "England",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Sam Curran",
+      "country": "England",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Moeen Ali",
+      "country": "England",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Graeme Swann",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Adil Rashid",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Jack Leach",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Dom Bess",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Rehan Ahmed",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Shoaib Bashir",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Gus Atkinson",
+      "country": "England",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Jamie Overton",
+      "country": "England",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ben Foakes",
+      "country": "England",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Matt Prior",
+      "country": "England",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Mohammad Rizwan",
+      "country": "Pakistan",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Imam ul Haq",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Shan Masood",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Abdullah Shafique",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Saud Shakeel",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Salman Agha",
+      "country": "Pakistan",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Younis Khan",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Misbah ul Haq",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Azhar Ali",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Asad Shafiq",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Fawad Alam",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Usman Khawaja",
+      "country": "Australia",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Mohammad Hafeez",
+      "country": "Pakistan",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Shoaib Malik",
+      "country": "Pakistan",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Haris Sohail",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Sarfraz Ahmed",
+      "country": "Pakistan",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Wahab Riaz",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Mohammad Abbas",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Yasir Shah",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Shaheen Afridi",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Hasan Ali",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Naseem Shah",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Mohammad Aamer",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Mir Hamza",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Abrar Ahmed",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Khurram Shahzad",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kamran Akmal",
+      "country": "Pakistan",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Zulfiqar Babar",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Dean Elgar",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Aiden Markram",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Temba Bavuma",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Quinton de Kock",
+      "country": "South Africa",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Hashim Amla",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "AB de Villiers",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Faf du Plessis",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "JP Duminy",
+      "country": "South Africa",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Graeme Smith",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Alviro Petersen",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Theunis de Bruyn",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Rassie van der Dussen",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Sarel Erwee",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Tony de Zorzi",
+      "country": "South Africa",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ryan Rickelton",
+      "country": "South Africa",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kyle Verreynne",
+      "country": "South Africa",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Heinz Adams",
+      "country": "South Africa",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Dale Steyn",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Vernon Philander",
+      "country": "South Africa",
+      "role": "All-Rounder",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Morne Morkel",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Kagiso Rabada",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Lungi Ngidi",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Anrich Nortje",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Marco Jansen",
+      "country": "South Africa",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Keshav Maharaj",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Wiaan Mulder",
+      "country": "South Africa",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Simon Harmer",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Imran Tahir",
+      "country": "South Africa",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Wayne Parnell",
+      "country": "South Africa",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dane Vilas",
+      "country": "South Africa",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Ross Taylor",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Tom Latham",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Devon Conway",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Will Young",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Henry Nicholls",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Brendon McCullum",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Martin Guptill",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Hamish Rutherford",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Mark Craig",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Daryl Mitchell",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Glenn Phillips",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Rachin Ravindra",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Mitchell Santner",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "BJ Watling",
+      "country": "New Zealand",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Tom Blundell",
+      "country": "New Zealand",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Tim Southee",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Neil Wagner",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Kyle Jamieson",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Matt Henry",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Doug Bracewell",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Mark Gillespie",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "William Somerville",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ajaz Patel",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Blair Tickner",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ben Sears",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Chris Gayle",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Kraigg Brathwaite",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Shai Hope",
+      "country": "West Indies",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Darren Bravo",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Marlon Samuels",
+      "country": "West Indies",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Shivnarine Chanderpaul",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Devon Smith",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kirk Edwards",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Kieran Powell",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Leon Johnson",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Shimron Hetmyer",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Roston Chase",
+      "country": "West Indies",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Jason Holder",
+      "country": "West Indies",
+      "role": "All-Rounder",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Jermaine Blackwood",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Nkrumah Bonner",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "John Campbell",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Tagenarine Chanderpaul",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Alick Athanaze",
+      "country": "West Indies",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kemar Roach",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Shannon Gabriel",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Jerome Taylor",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Alzarri Joseph",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Shamar Joseph",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Jayden Seales",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Gudakesh Motie",
+      "country": "West Indies",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Shane Dowrich",
+      "country": "West Indies",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Joshua Da Silva",
+      "country": "West Indies",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kumar Sangakkara",
+      "country": "Sri Lanka",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Mahela Jayawardene",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Angelo Mathews",
+      "country": "Sri Lanka",
+      "role": "All-Rounder",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Dimuth Karunaratne",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Dinesh Chandimal",
+      "country": "Sri Lanka",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Kusal Mendis",
+      "country": "Sri Lanka",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Pathum Nissanka",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Nishan Madushka",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Lahiru Thirimanne",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kaushal Silva",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Tharanga Paranavitana",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Niroshan Dickwella",
+      "country": "Sri Lanka",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Oshada Fernando",
+      "country": "Sri Lanka",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dhananjaya de Silva",
+      "country": "Sri Lanka",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Chamika Karunaratne",
+      "country": "Sri Lanka",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Dilruwan Perera",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Rangana Herath",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Suranga Lakmal",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Lasith Malinga",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Dhammika Prasad",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Nuwan Pradeep",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Vishwa Fernando",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Asitha Fernando",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Lahiru Kumara",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Kasun Rajitha",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Probath Jayasuriya",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Maheesh Theekshana",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Jeffrey Vandersay",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Mominul Haque",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Mushfiqur Rahim",
+      "country": "Bangladesh",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 150,
+      "base_price_display": "₹1.5 Cr"
+    },
+    {
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "base_price_lakhs": 200,
+      "base_price_display": "₹2 Cr"
+    },
+    {
+      "name": "Litton Das",
+      "country": "Bangladesh",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Mahmudullah",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Najmul Hossain Shanto",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Shadman Islam",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Imrul Kayes",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Soumya Sarkar",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Nazmul Islam",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Mehidy Hasan Miraz",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Taijul Islam",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Rubel Hossain",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Abu Jayed",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 50,
+      "base_price_display": "₹50 L"
+    },
+    {
+      "name": "Taskin Ahmed",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Khaled Ahmed",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Hasan Mahmud",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ebadot Hossain",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Shoriful Islam",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Nayeem Hasan",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "role": "All-Rounder",
+      "base_price_lakhs": 175,
+      "base_price_display": "₹1.75 Cr"
+    },
+    {
+      "name": "Mohammad Nabi",
+      "country": "Afghanistan",
+      "role": "All-Rounder",
+      "base_price_lakhs": 125,
+      "base_price_display": "₹1.25 Cr"
+    },
+    {
+      "name": "Hashmatullah Shahidi",
+      "country": "Afghanistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Rahmat Shah",
+      "country": "Afghanistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Ihsanullah",
+      "country": "Afghanistan",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Nasir Jamal",
+      "country": "Afghanistan",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Ibrahim Zadran",
+      "country": "Afghanistan",
+      "role": "Batsman",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Asghar Afghan",
+      "country": "Afghanistan",
+      "role": "Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Afsar Zazai",
+      "country": "Afghanistan",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Mohammad Shahzad",
+      "country": "Afghanistan",
+      "role": "Wicketkeeper-Batsman",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Yamin Ahmadzai",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Wafadar Momand",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Zahir Khan",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Qais Ahmad",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    },
+    {
+      "name": "Fazalhaq Farooqi",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "base_price_lakhs": 100,
+      "base_price_display": "₹1 Cr"
+    },
+    {
+      "name": "Nijat Masood",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "base_price_lakhs": 75,
+      "base_price_display": "₹75 L"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IPL Auction with Friends - Game Room</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Font Integration -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style data-purpose="custom-typography">
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #f97316 0%, #ef4444 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+<style data-purpose="background-effects">.stadium-bg {
+    background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.4), rgba(10, 10, 10, 0.95)), url(https://lh3.googleusercontent.com/aida-public/AB6AXuC4j_8_bWrOcYbcGRCviqRvESXrMlxsMOJZPkdbbiROLP7NylO3HS0Ubb4xHel0bcrRfDJXopdYIDYxzt9hXTlu8pXRajX2nGiCDa2tUyZFvwRpTxO9iFnUQRmdMWtc9S2mIyi5gw5jlljD7KtxI847vI7tufX5RIHS3wwBniIyTjEi4yEpcYFJS0uVbf7j4HU3bV2wkl9zKTdgathnVUEna7gsx_EE1VJnSW8TT5fRRp5LCgdNSy8UWa3f0Ne7iGqWzrunJ_WD7Fjg);
+    background-size: cover;
+    background-position: center
+    }
+.glass-panel {
+    background: rgba(18, 18, 18, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1)
+    }
+.glow-orange {
+    box-shadow: 0 0 30px rgba(249, 115, 22, 0.2)
+    }</style>
+</head>
+<body class="bg-[#0a0a0a] text-white min-h-screen flex flex-col lg:flex-row overflow-x-hidden selection:bg-orange-500/30 stadium-bg">
+<!-- BEGIN: HeroSection (Left Side) -->
+<section class="flex-1 flex flex-col justify-center px-8 py-16 lg:px-20 lg:py-0 relative z-10">
+<div class="max-w-2xl">
+<!-- Top Badge -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-yellow-500/30 bg-yellow-950/20 text-yellow-500 text-sm font-semibold mb-8" data-purpose="status-badge">
+<svg class="h-4 w-4" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+      IPL 2026 Auction Ready
+    </div>
+<!-- Main Title -->
+<h1 class="text-6xl md:text-8xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+      The Ultimate <br/>
+<span class="gradient-text">Auction Arena</span>
+</h1>
+<p class="text-xl text-gray-300 mb-12 max-w-lg leading-relaxed">
+      Step into the shoes of a franchise owner. Bid, strategize, and outplay your friends in the most realistic IPL auction simulation.
+    </p>
+<!-- Social Proof / Stats -->
+<div class="flex gap-8 border-t border-white/10 pt-8">
+<div>
+<div class="text-2xl font-bold">46+</div>
+<div class="text-sm text-gray-500">Live Auctions</div>
+</div>
+<div>
+<div class="text-2xl font-bold">1,200+</div>
+<div class="text-sm text-gray-500">Active Players</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: RoomCreationSidebar (Right Side) -->
+<aside class="w-full lg:w-[480px] lg:h-screen lg:overflow-y-auto flex items-center justify-center p-4 lg:p-8 relative z-20">
+<div class="glass-panel w-full max-w-md rounded-3xl p-8 glow-orange">
+<!-- Form Header -->
+<div class="mb-8">
+<h2 class="text-2xl font-bold mb-2">Create Game Room</h2>
+<p class="text-gray-400 text-sm">Set up your lobby and invite your friends</p>
+</div>
+<!-- Tab Switcher -->
+<div class="bg-white/5 p-1 rounded-xl flex mb-8">
+<button class="flex items-center justify-center gap-2 py-2.5 bg-white text-black rounded-lg text-sm font-bold transition-all w-full">
+<span>🏏</span> Cricket
+      </button>
+</div>
+<form class="space-y-8" onsubmit="return false;">
+<!-- Name Input -->
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2" for="username">Your Name</label>
+<input class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 outline-none transition-all placeholder:text-gray-700 text-white" id="username" placeholder="Enter your player name" type="text"/>
+</div>
+<!-- Team Selection -->
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-4">Choose Your Franchise</label>
+<div class="grid grid-cols-5 gap-3">
+<!-- MI -->
+<button class="aspect-square rounded-full bg-[#004ba0] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Mumbai Indians">MI</button>
+<!-- CSK -->
+<button class="aspect-square rounded-full bg-[#ffff00] flex items-center justify-center text-[10px] font-bold text-black border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Chennai Super Kings">CSK</button>
+<!-- RCB -->
+<button class="aspect-square rounded-full bg-[#ec1c24] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Royal Challengers Bangalore">RCB</button>
+<!-- KKR -->
+<button class="aspect-square rounded-full bg-[#3a225d] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Kolkata Knight Riders">KKR</button>
+<!-- DC -->
+<button class="aspect-square rounded-full bg-[#00008b] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Delhi Capitals">DC</button>
+<!-- PBKS -->
+<button class="aspect-square rounded-full bg-[#ed1b24] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Punjab Kings">PBKS</button>
+<!-- RR -->
+<button class="aspect-square rounded-full bg-[#ea1a85] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Rajasthan Royals">RR</button>
+<!-- SRH -->
+<button class="aspect-square rounded-full bg-[#f26522] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Sunrisers Hyderabad">SRH</button>
+<!-- GT -->
+<button class="aspect-square rounded-full bg-[#1b2133] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Gujarat Titans">GT</button>
+<!-- LSG -->
+<button class="aspect-square rounded-full bg-[#ab2a54] flex items-center justify-center text-[10px] font-bold border-2 border-transparent hover:scale-110 hover:border-white transition-all shadow-lg" title="Lucknow Super Giants">LSG</button>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="space-y-4 pt-4">
+<button class="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-400 hover:to-red-500 py-4 rounded-xl font-extrabold text-lg flex items-center justify-center gap-2 transition-all shadow-xl shadow-orange-900/40 active:scale-[0.98] text-white">
+<svg class="h-5 w-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M11.3 1.047a1 1 0 01.897.95l.447 8.589 5.912 2.111a1 1 0 01.597 1.259l-2.613 6.311a1 1 0 01-1.322.512l-6.123-2.723-6.122 2.723a1 1 0 01-1.322-.512L1.04 13.956a1 1 0 01.597-1.26l5.912-2.11L8 2.052a1 1 0 01.897-.95l2.403-.055z" fill-rule="evenodd"></path>
+</svg>
+          CREATE ROOM
+        </button>
+</div>
+</form>
+</div>
+</aside>
+<!-- END: RoomCreationSidebar -->
+<!-- BEGIN: Footer (Floating bottom) -->
+<footer class="fixed bottom-0 left-0 w-full lg:w-[calc(100%-480px)] p-6 hidden md:flex justify-between items-center z-30 pointer-events-none">
+<div class="pointer-events-auto">
+<h2 class="text-sm font-bold text-white/50 uppercase tracking-[0.2em]">IPL Auction Simulator 2026</h2>
+</div>
+<div class="pointer-events-auto text-gray-500 text-xs">
+    © 2024 All Rights Reserved. Built for Champions.
+  </div>
+</footer>
+<!-- END: Footer -->
+</body></html>
